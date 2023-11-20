@@ -2,10 +2,7 @@
 title: Publications
 menus:
   main:
-    weight: 5
-    title: Publications
-layout: page
-
+    name: Publications
+weight: 5
 ---
-
 {% include_relative publications/stella.html %}

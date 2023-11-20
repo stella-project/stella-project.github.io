@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About the Project</title>
+      <link>https://example.org/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/about/about/</guid>
+      <description>The DFG-funded STELLA project aims to create an evaluation infrastructure that allows to evaluate search and recommendation services within productive web-based search systems with real users. STELLA provides an integrated e-Research environment that allows researchers in the field of information retrieval and recommendation services to conduct studies with real users in real environments. The experimental set-ups differ considerably from classical TREC studies, which can only be carried out offline, or also from user studies, which only allow laboratory experiments, and thus enable researchers to use an evaluation method that was previously reserved only for industrial research or the operators of large online platforms.</description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>https://example.org/code/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/code/code/</guid>
+      <description>All of the project&amp;rsquo;s code is available open source in the STELLA GitHub Project. Below you find a short list of the most important repositories:
+The STELLA server is the central instance of the infrastructure. It handles the user administration, provides access to a dashboard, it automatically updates the STELLA app, and it hosts the database with user interaction logs. The STELLA app is deployed at sites that want to conduct IR and recommender experiments and evaluate them with user interactions.</description>
+    </item>
+    <item>
+      <title>Community Workshop</title>
+      <link>https://example.org/workshop/workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/workshop/workshop/</guid>
+      <description>Scope With this workshop, we want to inform future collaborators about the outcomes and the state-of-the-art evaluations based on the STELLA platform. Furthermore, we as the project organizers want to learn about the use cases and ideas of our collaborators. Ultimately, we aim at developing ideas for upcoming projects and collaborations. The event is planned to be held as a ½ day workshop.
+Update: A blog post about the outcomes can be found here.</description>
+    </item>
+    <item>
+      <title>Funding</title>
+      <link>https://example.org/funding/funding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/funding/funding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>People</title>
+      <link>https://example.org/people/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/people/people/</guid>
+      <description>
+TH Köln - University of Applied Sciences Philipp Schaer Timo Breuer GESIS - Leibniz-Institute for the Social Sciences Daniel Hienert Zeljko Carevic ZB MED - Information Centre for Life Sciences Leyla Jael García-Castro Former Members Johann Schaible (GESIS) Narges Tavakolpoursaleh (GESIS) Bernd Müller (ZB MED) Benjamin Wolff (ZB MED) </description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://example.org/publications/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/publications/publications/</guid>
+      <description>{% include_relative publications/stella.html %}</description>
+    </item>
+  </channel>
+</rss>

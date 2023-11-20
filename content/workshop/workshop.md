@@ -2,10 +2,10 @@
 title: Community Workshop
 menus:
   main:
-    weight: 5
-    title: Workshop
+    name: Workshop
 layout: page
-
+weight: 5
+draft: True
 ---
 
 ## Scope
