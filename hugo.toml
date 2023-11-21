@@ -1,7 +1,8 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'STELLA'
-theme = 'ananke'
+theme = 'blackburn'
+brand = "Blackburn"
 
 [markup]
   [markup.goldmark]
