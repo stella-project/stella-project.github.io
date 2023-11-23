@@ -2,7 +2,9 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'STELLA'
 theme = 'blackburn'
-brand = "Blackburn"
+
+[params]
+  custom_css = ["css/my.css"]
 
 [markup]
   [markup.goldmark]
