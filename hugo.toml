@@ -1,12 +1,55 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'STELLA'
+author = "STELLA"
 theme = 'blackburn'
+paginate = 10
+[indexes]
+  tag = "tags"
+  topic = "topics"
 
+  
 [params]
   custom_css = ["css/my.css"]
+  subtitle = "Infrastructures for Living Labs"
+  dateFormat = "02 Jan 2006"
+
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "People"
+    weight = 1
+    identifier = "people"
+    url = "/people/"
+  [[menu.main]]
+    name = "Code"
+    weight = 2
+    identifier = "code"
+    url = "/code/"
+  [[menu.main]]
+    name = "Funding"
+    weight = 3
+    identifier = "funding"
+    url = "/funding/"
+  [[menu.main]]
+    name = "Blog"
+    weight = 4
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Publications"
+    weight = 5
+    identifier = "publications"
+    url = "/publications/"
+  [[menu.main]]
+    name = "About"
+    weight = 6
+    identifier = "about"
+    url = "/about"

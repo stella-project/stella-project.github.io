@@ -1,9 +1,5 @@
 ---
 title: People
-menus:
-  main:
-    name: People
-weight: 2
 ---
 <a href="https://www.th-koeln.de/"><img style="float: right;" src="/images/TH_Koeln_Logo.svg" width="200"></a>
 ### TH Köln - University of Applied Sciences

@@ -1,8 +1,5 @@
 ---
 title: Code
-menus:
-  main:
-    name: Code
 weight: 3
 ---
 All of the project's code is available open source in the <a href="https://github.com/stella-project/">STELLA GitHub Project</a>. Below you find a short list of the most important repositories:

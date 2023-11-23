@@ -1,10 +1,5 @@
 ---
 title: Community Workshop
-menus:
-  main:
-    name: Workshop
-layout: page
-weight: 5
 draft: True
 ---
 

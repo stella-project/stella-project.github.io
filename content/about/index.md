@@ -1,8 +1,5 @@
 ---
 title: About the Project
-menus:
-  main:
-    name: About
 weight: 6
 ---
 
