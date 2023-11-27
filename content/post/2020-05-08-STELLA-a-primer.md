@@ -11,7 +11,7 @@ In academia, we often rely on standard test collections with static relevance ju
 
 Our early adopters - academic search engines - open their backends for researchers to deploy search algorithms, such that we expose the search results to site visitors. Therefore, the researchers prepare their systems in accordance with a defined project structure and upload them upon completion of the development process. The STELLA infrastructure will then automatically transfer the uploaded system to the sites where they can be queried. By Observation of the available feedback, it is possible to gain insights on the overall performance of the systems and adapt them to specific user needs.
 
-![STELLA, general workflow](/images/figure_stella.png)
+{{<fluid_img class="post-image" src="/images/figure_stella.png">}}
 
 This means, if you provide us with your system, we will handle the rest and ultimately have the system evaluated on real-world user feedback!
 

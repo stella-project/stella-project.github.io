@@ -14,7 +14,7 @@ First of all, participants need to register and specify which systems they want 
 Docker is a core element of STELLA. Our STELLA application, which handles communication between participant-containers and sites, is a multi-container-application (MCA). This means every participant-system must be deployed as a docker image, which runs as a container inside our STELLA application. This gives you full freedom in choice of programming language and software tools. Your container only has to satisfy the constraints of a predefined REST-API. Moreover a containerized approach enables full reproducibility of the participants systems.
 Don't worry: In any case, we will provide you with a fully working template, which will give you an easy start.
 
-![STELLA, general workflow](/images/STELLA_participate_ani.gif)
+{{<fluid_img class="post-image" src="/images/STELLA_participate_ani.gif">}}
 
 To connect your system with STELLA, your container has to provide endpoints according to our interface. Most importantly, your system has to implement an indexing-endpoint. This endpoint is called when your system is used for the first time. It builds a search-index from the data provided by the site. For rankings and recommendations, the endpoints differ a little, but the return result is pretty similar. The ranking-endpoint expects a search-query, the recommendation endpoint a document or dataset-id. Both endpoints must return an ordered list of document-ids in JSON format. If you provide these endpoints, your results will be integrated seamlessly into the sites' pages.
 

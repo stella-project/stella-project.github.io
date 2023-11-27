@@ -12,6 +12,13 @@
     padding-top: 100px;
 }
 
+.post-image {
+    justify-content: center;
+    display: flex;
+  }
+
+
+
 a {
     color: #AEA4BF;
     text-decoration: none;

@@ -16,7 +16,7 @@ During the first two weeks of the first round, the amount of logged data at LIVI
 The figure below shows the cumulative sum of logged session data at LIVIVO before (blue) and after (green) the first
 fully dockerized system went online in the first round.
 
-![docker-vs-precom](/images/pre-computed-vs-docker.png)
+{{<fluid_img class="post-image" src="/images/pre-computed-vs-docker.png">}}
 
 As it can be seen the cumulative sums of logged sessions, impressions, and clicks rapidly increased after the first dockerized system got online in mid-March. We consider the use of Docker containers as a full success and promote its use for future experiments!
 
