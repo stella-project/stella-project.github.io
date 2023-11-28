@@ -5,6 +5,7 @@ tags: [STELLA, living labs, workshop]
 excerpt_separator: <!--more-->
 date: "2022-07-21"
 ---
+<p>
 The 1st STELLA Community Workshop was held on 20 June 2022 at TH Köln. Eleven invited participants from DIPF Frankfurt, TIB Hannover, and ZBW Kiel attended the workshop to learn about the DFG-funded STELLA project’s outcomes and discuss the future directions and research questions regarding the evaluation of academic search systems. 
 
 <!--more-->
@@ -35,3 +36,4 @@ All participants agreed to further discuss and communicate on the common issues 
 
 
 The slides of the talks and presentations can be found [here](../../workshop).
+</p>

@@ -5,6 +5,7 @@ tags: [STELLA, living labs, docker, clicks, serp]
 excerpt_separator: <!--more-->
 date: "2021-10-02"
 ---
+<p>
 One shortcoming of the previous measures (wins, losses, ties) derived from interleaving experiments is the simplified interpretation of click interactions. By weighting clicks differently, it is possible to account for the meaning of the corresponding elements on the search engine result page (SERP). In this blog post, we share our results on weighting clicks on elements of SERPs differently. 
 
 <!--more-->
@@ -32,3 +33,4 @@ The table below shows the total number of clicks on SERP elements for each syste
 None of the systems could outperform the baseline system in terms of the nReward measure, but in comparison to the Outcome scores, there is a more balanced ratio between the nReward scores that also accounts for the meaning of specific clicks. Likewise, it accounts for clicks even if the experimental system did not “win” in the interleaving experiment. In Table 10 we compare the total number of clicks over multiple sessions. While the Win, Loss, Tie, and Outcome only measure if there have been more clicks in a single experiment, the nReward also considers those clicks that were made in experiments in which the experimental system did not necessarily win.
 
 More details can also be found in the corresponding lab overview: [http://ceur-ws.org/Vol-2936/paper-143.pdf](http://ceur-ws.org/Vol-2936/paper-143.pdf)
+</p>

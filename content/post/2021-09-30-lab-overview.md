@@ -5,6 +5,8 @@ tags: [STELLA, Living Labs, CLEF, Overview]
 excerpt_separator: <!--more-->
 date: "2021-09-30"
 ---
+
+<p>
 In this blog post, we share some general information about the [Living Labs for Academic Search (LiLAS)](https://clef-lilas.github.io/) at [CLEF2021](clef2021.clef-initiative.eu/). More specifically, we give an overview about the schedule, participants, and the volume of the logged user interaction data.
 
 <!--more-->
@@ -23,3 +25,4 @@ The table below provides an overview of the traffic logged in both rounds. In su
 {{<fluid_img class="post-image" src="/images/rounds-overview.png">}}
 
 More details can also be found in the corresponding lab overview: [http://ceur-ws.org/Vol-2936/paper-143.pdf](http://ceur-ws.org/Vol-2936/paper-143.pdf)
+</p>

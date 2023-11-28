@@ -5,6 +5,7 @@ tags: [STELLA, living labs, AB-testing, dockerization, search-engine evaluation,
 excerpt_separator: <!--more-->
 date: "2020-06-22"
 ---
+<p>
 STELLA enables researchers and coders to deploy and evaluate search and recommendation algorithms in a real-world scenario. These so-called "Living Labs" provide a user-focused and thus more realistic evaluation approach.
 What are the crucial steps when implementing a participant-system in STELLA?
 
@@ -23,3 +24,4 @@ How will these results become visible for the site users'? Whenever a user visit
 Given a ranking or recommendation, sites log interactions (user-feedback) such as clicks, downloads, or dwell times. The STELLA app will temporarily store these relevance indicators and upload them later to a central server. Based on that, we calculate evaluation measures for participant-containers. The evaluation results are aggregated and can be accessed by participants by visiting a dashboard service, which enables a comparison between different retrieval and recommender systems.
 
 Best regards, Your STELLA team
+</p>

@@ -5,6 +5,7 @@ tags: [STELLA, living labs, AB-testing, dockerization, search-engine evaluation,
 excerpt_separator: <!--more-->
 date: "2020-05-08"
 ---
+<p>
 In academia, we often rely on standard test collections with static relevance judgments that somewhat abstract away the specific information need of single users. Thus, evaluating search engine algorithms with real-world users is a desiderata. Finally, we want to know how users can benefit from innovative search engines. The STELLA project tries to bridge this gap with the help of an innovative infrastructure that makes it possible to evaluate experimental search algorithms in live environments. In this post we want to outline the general idea of our infrastructure.
 
 <!--more-->
@@ -18,3 +19,4 @@ This means, if you provide us with your system, we will handle the rest and ulti
 This blog post is the beginning of an upcoming series of posts in which we will outline STELLA and its components, features and partners.
 
 Best regards, Your STELLA team
+</p>

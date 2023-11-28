@@ -5,6 +5,7 @@ tags: [STELLA, living labs, docker, head query]
 excerpt_separator: <!--more-->
 date: "2021-10-01"
 ---
+<p>
 A novelty of our living lab implementation is the use of fully-fledged systems that run within a Docker container. Previous living labs were based on pre-computed results only. In our experiments, we validated both approaches and share the results in this blog post. 
 
 <!--more-->
@@ -21,3 +22,4 @@ fully dockerized system went online in the first round.
 As it can be seen the cumulative sums of logged sessions, impressions, and clicks rapidly increased after the first dockerized system got online in mid-March. We consider the use of Docker containers as a full success and promote its use for future experiments!
 
 More details can also be found in the corresponding lab overview: [http://ceur-ws.org/Vol-2936/paper-143.pdf](http://ceur-ws.org/Vol-2936/paper-143.pdf)
+</p>
