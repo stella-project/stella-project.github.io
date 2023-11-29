@@ -4,6 +4,7 @@ title = 'STELLA'
 author = "STELLA"
 theme = 'blackburn'
 paginate = 10
+enableInlineShortcodes = true
 [indexes]
   tag = "tags"
   topic = "topics"
@@ -11,6 +12,7 @@ paginate = 10
   
 [params]
   custom_css = ["css/my.css"]
+  subtitle = "Infrastructures for Living Labs"
   dateFormat = "02 Jan 2006"
 
 
@@ -22,11 +24,6 @@ paginate = 10
 
 [menu]
   # Shown in the side menu.
-    [[menu.main]]
-      name = "Home"
-      weight = 1
-      identifier = "main"
-      url = "/home/"
   [[menu.main]]
     name = "People"
     weight = 1
