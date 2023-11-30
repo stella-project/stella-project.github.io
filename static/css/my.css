@@ -154,7 +154,7 @@ a {
     transform: translateX(-50%);
     width: 200px;
     height: 200px;
-    background: url("/images/stella-logo.png") center/cover;
+    background: url("../images/stella-logo.png") center/cover;
     content: "";
     text-align: center;
     margin-top: 20px;

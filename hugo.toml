@@ -1,10 +1,12 @@
-baseURL = 'https://stella-project.org'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'STELLA'
 author = "STELLA"
 theme = 'blackburn'
 paginate = 10
+copyright = "&copy; 2023. All rights reserved."
 enableInlineShortcodes = true
+relativeURLs = "True"
 [indexes]
   tag = "tags"
   topic = "topics"
@@ -31,31 +33,31 @@ enableInlineShortcodes = true
     url = "/home/"
   [[menu.main]]
     name = "People"
-    weight = 1
+    weight = 2
     identifier = "people"
     url = "/people/"
   [[menu.main]]
     name = "Code"
-    weight = 2
+    weight = 3
     identifier = "code"
     url = "/code/"
   [[menu.main]]
     name = "Funding"
-    weight = 3
+    weight = 4
     identifier = "funding"
     url = "/funding/"
   [[menu.main]]
     name = "Blog"
-    weight = 4
+    weight = 5
     identifier = "home"
     url = "/"
   [[menu.main]]
     name = "Publications"
-    weight = 5
+    weight = 6
     identifier = "publications"
     url = "/publications/"
   [[menu.main]]
     name = "About"
-    weight = 6
+    weight = 7
     identifier = "about"
     url = "/about"
