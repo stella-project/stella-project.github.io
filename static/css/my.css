@@ -5,16 +5,25 @@
     padding: 2.5em 2em 0;
     border-bottom: 1px solid #eee;
 }
-   .header h1 {
-       margin: 0 auto;
-       font-size: 3em;
-       font-weight: 300;
-       color: black;
-       font-weight: bold;
-       max-width: 800px;
-       padding: 0 2em;
-   }
 
+.header h1 {
+    margin: 0 auto;
+    font-size: 3em;
+    font-weight: 300;
+    color: #333;
+    font-weight: bold;
+    max-width: 800px;
+    padding: 0 2em;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    color: #333;
+    font-weight: bold;
+    max-width: 800px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
 
 
 #layout {
@@ -25,7 +34,7 @@
 
 #menu {
     background: #201c2d;
-    width: 240px;   
+    width: 240px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 300px;
@@ -34,7 +43,7 @@
 .post-image {
     justify-content: center;
     display: flex;
-  }
+}
 
 
 a {
@@ -43,16 +52,16 @@ a {
 
 }
 
-.home-button a{
+.home-button a {
     color: white;
 }
 
 .section-button {
     background-color: #6584a5;
-    color: #fff; 
-    padding: 15px 40px; 
+    color: #fff;
+    padding: 15px 40px;
     border: none;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .section-button:hover {
@@ -78,38 +87,39 @@ a {
 #menu .pure-menu .menu-item-divided {
     border-top: 0.5px solid #41395c;
 }
+
 #menu a {
     color: #ffffff;
     font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
     padding: 0.6em 0 0.6em 0.6em;
-    text-align: center;   
+    text-align: center;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.15em;
     list-style: none;
     text-transform: uppercase;
 }
-#menu .pure-menu li{
+
+#menu .pure-menu li {
     border-top: 0.5px solid #41395c;
     border-bottom: 0.5px solid #41395c;
 }
-
 
 
 #menu a:hover {
     background: #41395c;
     color: #ffffff;
     text-decoration: none;
+    color: #525e8b;
 }
 
 
-#menu .pure-menu li a:hover, #menu .pure-menu li a:focus {
+#menu .pure-menu li a:hover,
+#menu .pure-menu li a:focus {
     background: #201c2d;
 }
 
-#menu a:hover{
-    color: #525e8b;
-}
+
 .small-print {
     position: absolute;
     bottom: 0;
@@ -118,20 +128,19 @@ a {
     margin: em;
     text-align: center;
     padding: 0.6em 0 0.6em 0.6em;
-    }
+}
 
 
 .small-print:nth-of-type(2)::before {
     content: "© STELLA. ALL RIGHT RESERVED.";
-    color: #929292;
-    font-size: 1em;
-    margin-bottom: 60px;
+    color: #6b6383;
+    font-size: 80%;
     text-align: center;
     display: block;
     padding: 0.6em 0 0.6em 0.6em;
 }
 
-#menu > div:nth-child(3) > div:nth-child(2) > small > a {
+#menu>div:nth-child(3)>div:nth-child(2)>small>a {
     border-top: 0cqb;
     color: #6b6383;
     font-size: 0.8em;
@@ -139,14 +148,13 @@ a {
 }
 
 #menu::before {
-    
     position: absolute;
-    top: 15px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    width: 200px; 
-    height: 200px; 
-    background: url("/images/stella-logo.png") center/cover; 
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    background: url("/images/stella-logo.png") center/cover;
     content: "";
     text-align: center;
     margin-top: 20px;
@@ -156,7 +164,7 @@ a {
 
 #menu::after {
     position: absolute;
-    top: 32%;
+    top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
@@ -174,6 +182,7 @@ a {
 p {
     text-align: justify;
 }
+
 i {
     display: inline;
- }
+}

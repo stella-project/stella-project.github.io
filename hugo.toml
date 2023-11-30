@@ -24,6 +24,11 @@ enableInlineShortcodes = true
 
 [menu]
   # Shown in the side menu.
+    [[menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "main"
+    url = "/home/"
   [[menu.main]]
     name = "People"
     weight = 1
