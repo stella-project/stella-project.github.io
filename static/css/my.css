@@ -174,3 +174,6 @@ a {
 p {
     text-align: justify;
 }
+i {
+    display: inline;
+ }
