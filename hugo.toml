@@ -6,7 +6,6 @@ theme = 'blackburn'
 paginate = 10
 copyright = "&copy; 2023. All rights reserved."
 enableInlineShortcodes = true
-relativeURLs = "True"
 [indexes]
   tag = "tags"
   topic = "topics"
