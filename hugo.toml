@@ -1,4 +1,4 @@
-baseURL = 'https://stella-project.org/website_v3'
+baseURL = 'https://stella-project.org/'
 languageCode = 'en-us'
 title = 'STELLA'
 author = "STELLA"
