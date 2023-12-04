@@ -12,16 +12,5 @@ STELLA provides an integrated e-Research environment that allows researchers in 
 
 <div class="home-button">
 <a href="/about/" class="section-button">ABOUT THE PROJECT</a>
-</div>
-
-<br>
-
-# Recent Posts
-
-
-
-<br>
-
-<div class="home-button">
 <a href="/" class="section-button">VIEW BLOGS</a>
 </div>

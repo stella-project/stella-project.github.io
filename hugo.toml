@@ -1,10 +1,8 @@
 baseURL = 'https://stella-project.org/website_v3/'
 languageCode = 'en-us'
 title = 'STELLA'
-author = "STELLA"
 theme = 'blackburn'
 paginate = 10
-copyright = "&copy; 2023. All rights reserved."
 enableInlineShortcodes = true
 canonifyurls = true
 
