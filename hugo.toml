@@ -14,7 +14,7 @@ canonifyurls = true
 
   
 [params]
-  custom_css = ["css/my.css"]
+  custom_css = ["https://stella-project.org/website_v3/css/my.css"]
   subtitle = "Infrastructures for Living Labs"
   dateFormat = "02 Jan 2006"
 
