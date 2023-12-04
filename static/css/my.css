@@ -40,7 +40,7 @@ h1 {
     width: 240px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 400px;
+    padding-top: 300px;
 }
 
 .post-image {
@@ -161,13 +161,11 @@ a {
     left: 50%;
     transform: translateX(-50%);
     width: 250px;
-    height: 350px;
+    height: 250px;
     background: url("../images/stella-logo.png") center/contain no-repeat;
     content: "";
     text-align: center;
     margin-top: 15px;
-    padding-bottom: 20px;
-    margin-bottom: 200px;
 }
 
 
