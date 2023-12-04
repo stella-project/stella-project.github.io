@@ -29,7 +29,7 @@ canonifyurls = true
     name = "Home"
     weight = 1
     identifier = "main"
-    url = "/"
+    url = "/home/"
   [[menu.main]]
     name = "People"
     weight = 2
