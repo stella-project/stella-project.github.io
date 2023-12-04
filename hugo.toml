@@ -1,4 +1,4 @@
-baseURL = 'https://stella-project.org/'
+baseURL = 'https://stella-project.org/website_v3'
 languageCode = 'en-us'
 title = 'STELLA'
 author = "STELLA"
@@ -14,7 +14,7 @@ canonifyurls = true
 
   
 [params]
-  custom_css = ["https://stella-project.org/website_v3/css/my.css"]
+  custom_css = ["css/my.css"]
   subtitle = "Infrastructures for Living Labs"
   dateFormat = "02 Jan 2006"
 
