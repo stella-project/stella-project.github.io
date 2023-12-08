@@ -41,22 +41,17 @@ canonifyurls = true
     identifier = "code"
     url = "/code/"
   [[menu.main]]
-    name = "Funding"
-    weight = 4
-    identifier = "funding"
-    url = "/funding/"
-  [[menu.main]]
     name = "Blog"
-    weight = 5
+    weight = 4
     identifier = "home"
     url = "/"
   [[menu.main]]
     name = "Publications"
-    weight = 6
+    weight = 5
     identifier = "publications"
     url = "/publications/"
   [[menu.main]]
     name = "About"
-    weight = 7
+    weight = 6
     identifier = "about"
     url = "/about"

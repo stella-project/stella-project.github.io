@@ -14,3 +14,10 @@ STELLA provides an integrated e-Research environment that allows researchers in 
 <a href="/about/" class="section-button">ABOUT THE PROJECT</a>
 <a href="/" class="section-button">VIEW BLOGS</a>
 </div>
+
+
+STELLA is funded by Deutsche Forschungsgemeinschaft (DFG) under the project number 407518790 in the "Research data and software" programme within the [LIS \(Scientific Library Services and Information Systems\)](https://dfg.de/lis) funding scheme. The first project phase was originally funded in 2018 and is now in it's second funding phase. 
+
+More information can be found at [DFG's GEPRIS research information system](http://gepris.dfg.de/gepris/projekt/407518790?context=projekt&task=showDetail&id=407518790&). 
+
+<a href="https://gepris.dfg.de/gepris/projekt/407518790?context=projekt&task=showDetail&id=407518790&"><img class="float-left" src="/images/DFG_Logo.png" width="600"></a>
