@@ -8,17 +8,23 @@ Visit the site at https://stella-project.org
 
 The website is hosted on GitHub Pages, utilizing its build mechanism. To make updates, clone this repository, implement your changes, and push them back to the master branch in the repository.
 
-## Workflow to Update the Website
 
-1. Get current status
+## Clone the Website
+If you would like to make changes to the website locally, you need to obtain a copy of it. Therefore, you need to clone this repository and also the Theme in the submodule.
+1. Clone the repository:
 
-     a. by cloning
+          git clone <url>
+
+3. Add the submodule:
+               
+         git submodule update --init --remote
+
+
+## Update the Website
+
+1. Get current status by pulling 
         
-                git clone <url>
-                
-     b. by pulling 
-        
-                git pull origin master
+           git pull origin master
 
 1. Perform your changes
 
@@ -33,8 +39,8 @@ The website is hosted on GitHub Pages, utilizing its build mechanism. To make up
 
             git push origin master
 
-### Running the Site Locally
 
+## Running the Site Locally
 
 1. Install [Hugo](https://gohugo.io/installation/)
 
@@ -43,7 +49,7 @@ The website is hosted on GitHub Pages, utilizing its build mechanism. To make up
 
         hugo server
 
-1. Browse to [https://localhost:1313](http://localhost:1313)
+1. Browse to [http://localhost:1313/stella-project.github.io/](http://localhost:1313/stella-project.github.io/)
 
 ## Blog
 
@@ -53,7 +59,7 @@ New blog posts should be placed in the `/contents/post/` directory. The naming s
         
 ## Updating Publications
 
-~ To be written ~
+The publications are updated automatically on each rebuild. Therefore, publication metadata is fetched from [www.bibsonomy.org](www.bibsonomy.org) with the tag `stella`.
 
 ## Theme
 
