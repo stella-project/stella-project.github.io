@@ -26,6 +26,21 @@ defaults:
     shell: bash
 
 jobs:
+  # Update publications job
+  update-publications:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python  # setup python to fetch publications
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: run python script  # run the script
+        run: python getpublications.py
+      - uses: stefanzweifel/git-auto-commit-action@v4  # push changes
+        with:
+          commit_message: Add new publication changes
+  
   # Build job
   build:
     runs-on: ubuntu-latest
