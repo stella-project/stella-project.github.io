@@ -30,14 +30,14 @@ jobs:
   update-publications:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup Python  # setup python to fetch publications
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: 3.8
       - name: run python script  # run the script
         run: python getpublications.py
-      - uses: stefanzweifel/git-auto-commit-action@v4  # push changes
+      - uses: stefanzweifel/git-auto-commit-action@v5  # push changes
         with:
           commit_message: Add new publication changes
   
