@@ -35,5 +35,5 @@ All participants agreed to further discuss and communicate on the common issues 
 *Daniel Hienert and Philipp Schaer for the STELLA team, July 21 2022.* 
 
 
-The slides of the talks and presentations can be found [here](../../workshop).
+The slides of the talks and presentations can be found [here](https://github.com/stella-project/stella-project.github.io/tree/main/static/pdf).
 </p>
