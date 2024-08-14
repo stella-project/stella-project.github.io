@@ -1,5 +1,5 @@
 ---
-title:  STELLA Project: Insights from the Second Community Workshop
+title:  Insights from the Second Community Workshop
 categories: [blog]
 tags: [STELLA, living labs, workshop]
 excerpt_separator: <!--more-->
