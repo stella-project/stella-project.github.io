@@ -4,7 +4,6 @@ categories: [blog]
 tags: [STELLA, living labs, tutorial]
 excerpt_separator: <!--more-->
 date: "2022-08-14"
-draft: true
 ---
 In this demo, we’ll explore the STELLA evaluation infrastructure, designed to assess various retrieval systems in a live, online environment. This tutorial provides a technical overview covering the setup, configuration, and operation of the STELLA infrastructure. You’ll learn how to interact with the system components, including the STELLA Server, STELLA App, experimental search systems, and a rudimentary search interface that simulates a search portal for testing.
 
