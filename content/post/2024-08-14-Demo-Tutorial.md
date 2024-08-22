@@ -10,7 +10,7 @@ In this demo, we’ll explore the STELLA evaluation infrastructure, designed to 
 
 <!--more-->
 
-This tutorial can give you an idea of the project's current state or help you start setting up the infrastructure for your search portal. It follows the workflow outlined in our second community workshop, with [slides](https://docs.google.com/presentation/d/1kpPAxCjyb8PVbI5sLIJ0nyz0nv8XWUO8j3B-SsxJz_U/edit?usp=sharing) and a [video](https://www.youtube.com/watch?v=48mZSEDVJaU) recording of the demo available online. The code is hosted on [GitHub](https://github.com/stella-project), using a pre-release of the second version on demo branches. The STELLA stack is built with Docker and Python (Flask) and has been tested on Ubuntu and MacOS. A Docker installation is required for this tutorial. 
+This tutorial will give you an idea of the project's current state and help you start setting up the infrastructure for your search portal. It follows the workflow outlined in our second community workshop, with [slides](https://docs.google.com/presentation/d/1kpPAxCjyb8PVbI5sLIJ0nyz0nv8XWUO8j3B-SsxJz_U/edit?usp=sharing) and a [video](https://www.youtube.com/watch?v=48mZSEDVJaU) recording of the demo available online. The code is hosted on [GitHub](https://github.com/stella-project), using a pre-release of the second version on demo branches. The STELLA stack is built with Docker and Python (Flask) and has been tested on Ubuntu and MacOS. A Docker installation is required for this tutorial. 
 
 STELLA is composed of several key components:
 
