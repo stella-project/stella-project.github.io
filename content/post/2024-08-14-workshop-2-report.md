@@ -4,7 +4,6 @@ categories: [blog]
 tags: [STELLA, living labs, workshop]
 excerpt_separator: <!--more-->
 date: "2022-08-14"
-draft: true
 ---
 The STELLA project has successfully reached its second phase, and we’re happy to share the highlights of our latest community workshop! Held on June 17th and 18th, 2024, at [GESIS](https://www.gesis.org/) in Cologne, this two-day event brought together six invited participants from [DIPF](https://www.dipf.de/) Frankfurt, [TIB](https://www.tib.eu/) Hannover, and [ZBW](https://www.zbw.eu/) Kiel with the STELLA team from [TH Köln](https://www.th-koeln.de/), [GESIS](https://www.gesis.org/) and [ZB Med](https://www.zbmed.de/en/). The workshop was designed to explore the future of the DFG-funded STELLA project, discuss various use cases and research questions related to the evaluation of academic search systems, and foster connections within the community.
 
