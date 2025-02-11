@@ -24,7 +24,7 @@ If you would like to make changes to the website locally, you need to obtain a c
 
 1. Get current status by pulling 
         
-           git pull origin master
+           git pull origin main
 
 1. Perform your changes
 
@@ -37,7 +37,7 @@ If you would like to make changes to the website locally, you need to obtain a c
         
     + Push changes to the remote repository
 
-            git push origin master
+            git push origin main
 
 
 ## Running the Site Locally
