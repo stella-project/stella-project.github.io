@@ -22,6 +22,9 @@ These components work together, enabling researchers to evaluate different retri
 
 Please note that STELLA is a work in progress. For the latest developments, you can follow the project’s [GitHub repositories](https://github.com/stella-project) and track ongoing issues. We welcome feature requests and feedback from the community, as it helps us improve and shape the infrastructure to better meet your needs.
 
+## Prerequisites
+The STELLA Project requires Docker. Please ensure that Docker is installed on your system before proceeding.
+
 
 ## Setting Up the Infrastructure
 To begin with STELLA, we need to set up the infrastructure by cloning the necessary repositories, downloading data, and starting the relevant services. Follow these steps to get everything up and running:
@@ -60,7 +63,7 @@ tar -xf ~/Downloads/gesis-search.tar
     
 After that we copy the data to the appropriate directories:
 ```bash
-cp gesis-search/documents/publication.jsonl stella-search/data/index cp -r gesis-search stella-app/data
+cp gesis-search/documents/publication.jsonl stella-search/data/index cp -r gesis-search stella-app/data/
 ```
         
 
@@ -79,9 +82,8 @@ docker compose up -d
 The STELLA Search interface will now be available at [localhost:8888](http://localhost:8888).
 
 
-
 ### Pull an Experimental System
-Finally we clone the STELLA template for an experimental system. This system can be used as a startingpoint to implement your experimental systems into the STELLA infrastructure.
+Finally we clone the STELLA template for an experimental system. This system can be used as a starting point to implement your experimental systems into the STELLA infrastructure. However, for this demo, cloning the template is not necessary.
 
 ```bash
 git clone https://github.com/stella-project/stella-micro-template
@@ -99,9 +101,10 @@ cd stella-server
 docker compose up
 ```
 
-Before we can use the STELLA Server we need to initialize the database with some dummy data to simulate a demo environment.
+Before we can use the STELLA Server we need to initialize the database with some dummy data to simulate a demo environment. To do this, log into the Docker container for the `stella-server`.
+
 ```bash
-docker exec -it stella-server-web-1 flask seed-db
+docker exec -it stella-server-1 flask seed-db
 ```
 
 Now we can register the experimental system. The server is available at [localhost:8000](http://localhost:8000). We can log in with the default credentials (experimenter@stella-project.org / pass) to manage system configurations. Under the `systems` tab, we can register the experimental system by providing the system name and the GitHub repository URL. For example, we can register the ranking system `gesis_rank_pyserini` with the URL https://github.com/stella-project/gesis_rank_pyserini and the recommendation system `gesis_rec_pyterrier` with the URL https://github.com/stella-project/gesis_rec_pyterrier. These systems will now show up in the list of registered systems in the STELLA Server, can be activated and will be used for the next build of the STELLA App.
@@ -115,7 +118,7 @@ To verify that the systems are correctly registered, we can check the systems ta
 This section details the steps required to fully integrate experimental systems into the STELLA infrastructure. It covers logging into the STELLA Server as an administrator to activate systems, updating the STELLA App, launching and initializing the STELLA App, and indexing data for all systems to prepare them for searching.
 
 ### Activation and Updating
-First, we will log into the STELLA Server as an administrator to activate the newly registered experimental systems, using the credentials (admin@stella-project.org / pass). On the *systems* subpage we can activate the systems we would like to include in the next experiments. Through the *administration* site, we can update the STELLA App. This generates a docker compose file that can be used to rebuild the STELLA App inclunding all updated systems. Alternatively we can manually create a docer compose file with the experimental systems. 
+First, we will log into the STELLA Server as an administrator to activate the newly registered experimental systems, using the credentials (admin@stella-project.org / pass). On the *systems* subpage we can activate the systems we would like to include in the next experiments. Through the *administration* site, we can update the STELLA App. This generates a docker compose file that can be used to rebuild the STELLA App including all updated systems. Alternatively we can manually create a docer compose file with the experimental systems. 
 
 ### Building and Initializing STELLA App
 Now we can launch the STELLA App, which serves as the intermediary between the experimental systems, the production systems, and the search site. We start the service by navigating to the STELLA App directory and running `docker compose up`. 
@@ -128,7 +131,7 @@ docker compose up
 Once the service is up, initialize the app by seeding the database with demo data, which will create all necessary tables and populate them with the users and demo systems:
 
 ```bash
-docker exec -it stella-app-web-1 flask seed-db
+docker exec -it stella-app-1 flask seed-db
 ```
 
 ### Data Indexing for Systems
