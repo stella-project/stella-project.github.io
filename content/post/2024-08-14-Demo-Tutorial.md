@@ -67,7 +67,41 @@ cp gesis-search/documents/publication.jsonl stella-search/data/index cp -r gesis
 ```
         
 
-### Start the STELLA Search Dummy UI
+## 1. Experimental System Integration
+
+This phase focuses on the integration of an experimental system that will be compared to the current baseline system. It can be a new recommendation or ranking system, or an enhancement of an existing system with varied parameters. The process involves setting up and registering the experimental system within the STELLA infrastructure. This section of the tutorial corresponds to the first two steps in the linked slides.
+
+### Launch the STELLA Server
+
+First we launch the STELLA Server that is used to orchistrate the experimental systems. Before we can use the experimental system we need to register it to STELLA using the server. We navigate to the `stella-server` directory and launch the service:
+
+```bash
+cd stella-server
+docker compose up
+```
+
+### Initialize the Database with Dummy Data
+
+Before we can use the STELLA Server we need to initialize the database with some dummy data to simulate a demo environment. To do this, log into the Docker container for the `stella-server`.
+
+```bash
+docker exec -it stella-server-1 flask seed-db
+```
+
+### Pull an Experimental System
+Now that the server and database are set up, we can pull the experimental system. Clone the STELLA template for an experimental system to use as a starting point to integrate your system into the STELLA infrastructure. This is optional for a demo but is necessary for implementing your own systems.
+
+```bash
+git clone https://github.com/stella-project/stella-micro-template
+```
+### Register the Experimental System
+
+With the server running and the experimental system in place, the next step is registering it. The server is available at [localhost:8000](http://localhost:8000). We can log in with the default credentials (experimenter@stella-project.org / pass) to manage system configurations. Under the `systems` tab, we can register the experimental system by providing the system name and the GitHub repository URL. For example, we can register the ranking system `gesis_rank_pyserini` with the URL https://github.com/stella-project/gesis_rank_pyserini and the recommendation system `gesis_rec_pyterrier` with the URL https://github.com/stella-project/gesis_rec_pyterrier. These systems will now show up in the list of registered systems in the STELLA Server, can be activated and will be used for the next build of the STELLA App.
+
+To verify that the systems are correctly registered, we can check the systems table of the STELLA Server database.
+
+
+## 2. Starting the STELLA Search Dummy UI
 This step launches a basic search interface for STELLA using Docker. The dummy UI simulates a search portal and allows you to perform simple searches and interact with the results.
 
 We can start the service with this command after navigating to the `stella-search` directory:
@@ -81,40 +115,7 @@ docker compose up -d
         
 The STELLA Search interface will now be available at [localhost:8888](http://localhost:8888).
 
-
-### Pull an Experimental System
-Finally we clone the STELLA template for an experimental system. This system can be used as a starting point to implement your experimental systems into the STELLA infrastructure. However, for this demo, cloning the template is not necessary.
-
-```bash
-git clone https://github.com/stella-project/stella-micro-template
-```
-
-
-
-## 1. Experimental System Integration
-This phase focuses on the integration of an experimental system that will be compared to the current baseline system. It can be a new recommendation or ranking system, or an enhancement of an existing system with varied parameters. The process involves setting up and registering the experimental system within the STELLA infrastructure. This section of the tutorial corresponds to the first two steps in the linked slides.
-
-
-First we launch the STELLA Server that is used to orchistrate the experimental systems. Before we can use the experimental system we need to register it to STELLA using the server. We navigate to the `stella-server` directory and launch the service:
-```bash
-cd stella-server
-docker compose up
-```
-
-Before we can use the STELLA Server we need to initialize the database with some dummy data to simulate a demo environment. To do this, log into the Docker container for the `stella-server`.
-
-```bash
-docker exec -it stella-server-1 flask seed-db
-```
-
-Now we can register the experimental system. The server is available at [localhost:8000](http://localhost:8000). We can log in with the default credentials (experimenter@stella-project.org / pass) to manage system configurations. Under the `systems` tab, we can register the experimental system by providing the system name and the GitHub repository URL. For example, we can register the ranking system `gesis_rank_pyserini` with the URL https://github.com/stella-project/gesis_rank_pyserini and the recommendation system `gesis_rec_pyterrier` with the URL https://github.com/stella-project/gesis_rec_pyterrier. These systems will now show up in the list of registered systems in the STELLA Server, can be activated and will be used for the next build of the STELLA App.
-
-To verify that the systems are correctly registered, we can check the systems table of the STELLA Server database.
-
-
-
-
-## 2. Integrating the Experimental System into STELLA
+## 3. Integrating the Experimental System into STELLA
 This section details the steps required to fully integrate experimental systems into the STELLA infrastructure. It covers logging into the STELLA Server as an administrator to activate systems, updating the STELLA App, launching and initializing the STELLA App, and indexing data for all systems to prepare them for searching.
 
 ### Activation and Updating
@@ -152,9 +153,16 @@ We can access the STELLA Search interface which should be available at [localhos
 ### Data Transfer to the STELLA Server
 The logged interactions will be automatically transferred to the STELLA Server at regular intervals. A rudimentary dashboard displays the results and a json download is available.
 
+### Demo Video
+
+Demo video: [Watch it on YouTube](https://www.youtube.com/watch?v=48mZSEDVJaU)
+
+<a href="https://www.youtube.com/watch?v=48mZSEDVJaU" target="_blank">
+  {{<fluid_img class="post-image" src="/images/stella-interface.png">}}
+</a>
+
 
 ## Conclusion
-Through this tutorial, we have explored the steps necessary to set up, integrate, and interact with the STELLA evaluation infrastructure. From cloning the necessary repositories and initializing the system to conducting real search queries and analyzing the outcomes, we've covered a pathway to understand and engage with STELLA. 
 
 For ongoing developments and further details, continue to follow the STELLA project on GitHub and contribute your insights and feature requests to enhance this evolving infrastructure. We would be happy to welcome you at our next community workshop, where you can connect with other users and developers to share experiences and learn more about the future of STELLA.
 
