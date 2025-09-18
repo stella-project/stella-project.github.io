@@ -43,7 +43,7 @@ canonifyurls = true
   [[menu.main]]
     name = "Documentation"
     weight = 4
-    identifier = "people"
+    identifier = "documentation"
     url = "https://stella-project.org/stella-documentation/"
   [[menu.main]]
     name = "People"
