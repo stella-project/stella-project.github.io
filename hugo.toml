@@ -25,33 +25,38 @@ canonifyurls = true
 
 [menu]
   # Shown in the side menu.
-    [[menu.main]]
+  [[menu.main]]
     name = "Home"
     weight = 1
     identifier = "main"
     url = "/home/"
   [[menu.main]]
-    name = "People"
+    name = "Blog"
     weight = 2
-    identifier = "people"
-    url = "/people/"
+    identifier = "home"
+    url = "/"
   [[menu.main]]
     name = "Code"
     weight = 3
     identifier = "code"
     url = "/code/"
   [[menu.main]]
-    name = "Blog"
+    name = "Documentation"
     weight = 4
-    identifier = "home"
-    url = "/"
+    identifier = "people"
+    url = "https://stella-project.org/stella-documentation/"
+  [[menu.main]]
+    name = "People"
+    weight = 5
+    identifier = "people"
+    url = "/people/"
   [[menu.main]]
     name = "Publications"
-    weight = 5
+    weight = 6
     identifier = "publications"
     url = "/publications/"
   [[menu.main]]
     name = "About"
-    weight = 6
+    weight = 7
     identifier = "about"
     url = "/about"
