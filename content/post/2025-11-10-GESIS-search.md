@@ -16,4 +16,9 @@ The integration and evaluation of recommendations are based on the [STELLA evalu
 
 {{<fluid_img class="post-image" src="/images/dataset1.jpg">}}
 
+Recommendations for the Generation Z dataset.
+
+
 {{<fluid_img class="post-image" src="/images/rec1.jpg">}}
+
+Recommendations for a publication on the topic of migration.
