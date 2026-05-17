@@ -1,5 +1,5 @@
 ---
-title: STELLA meets MLentory: Evaluating Search for Machine Learning Models
+title: "STELLA meets MLentory: Evaluating Search for Machine Learning Models"
 categories: [blog]
 tags: [STELLA, living labs, model registry, machine learning]
 excerpt_separator: <!--more-->
@@ -20,10 +20,10 @@ To keep the interface compact and easy to navigate, MLentory displays only a sub
 This is especially important in machine learning registries, where users often search conceptually rather than by exact identifiers. Two models may solve very similar tasks while sharing little vocabulary, making retrieval quality far more challenging than simple keyword matching.
 
 
-Search rankings in MLentory for biomedical language model queries
+Search rankings in MLentory for biomedical language model queries. 
 
 
-{{<fluid_img class="post-image" src="/images/mlentory.jpg">}}
+{{<fluid_img class="post-image" src="/images/mlentory.png">}}
 
 
 ## Two search systems under comparison
@@ -32,7 +32,7 @@ MLentory’s **baseline** search uses Elasticsearch over harmonized metadata inc
 
 Alongside this baseline system, an experimental vector-based semantic search approach is also being evaluated. Instead of relying only on lexical overlap, models and queries are embedded into a shared vector space so that semantically related queries and models can match even when they use different terminology.
 
-## Evaluating search in practive
+## Evaluating search in practice
 
 The [STELLA](https://stella-project.org/) allows different retrieval strategies to be evaluated directly within the live MLentory portal. Researchers continue using the same familiar interface, while behind the scenes STELLA interleaves results from multiple search systems and learns from user interactions such as clicks.
 
